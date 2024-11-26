@@ -1,6 +1,6 @@
 # Chess Statistics
 Website:
-https://dataviscourse2023.github.io/final-project-chessstatisticsteam/
+https://solonos.github.io/chess-statistics-personal-copy/chess-board.html
 
 Video:
 https://www.youtube.com/watch?v=xw5iyV46Haw
