@@ -1,0 +1,34 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Chess Statistics</title>
+        <link rel="icon" href="favicon.ico">
+
+        <link href="charts.css" rel="stylesheet">
+        
+        <script src="components/header.js" type="text/javascript" defer></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="js/CategoricalBarChart.js"></script>
+        <script src="js/script.js"></script>
+        
+        
+    </head>
+    <body>
+        <our-header></our-header>
+        <div class="row">
+        <!-- list dropdown -->
+            <div class="chart column">
+                <h2>Opening Move Win Rate by Year Lichess.org</h2>
+                <div id="CategoricalBarChart-div"></div>
+                <!-- slider for years-->
+                <div class="range" style="margin-top: 2em;">
+                    <input id="yearSlider" style="width: 100%" type="range" orient="horizontal" value="0" min="0" max="6">
+                  </div>
+                  <p id="yearLabel" style="text-align: center;"></p>
+            </div>
+        </div>
+    </body>
+</html>

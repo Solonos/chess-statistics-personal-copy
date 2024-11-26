@@ -1,0 +1,148 @@
+/* style div and headers */
+.chart,
+h2 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 100px auto;
+}
+
+.column {
+    margin: 0 auto;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.white {
+    background-color: #f0d9b5;
+}
+
+.black {
+    background-color: #b58863;
+}
+
+.slider-container {
+    width: 50px;
+    height: 100%;
+}
+
+.slider {
+    width: 20px;
+    height: 300px;
+    background: linear-gradient(to bottom, #00FF00, #808080, #FF0000);
+    
+}
+.slider-label {
+    width: 50px;
+    text-align: right;
+    color: white;
+}
+
+.toolbox span {
+    padding: 5px;
+}
+
+/* style of histogram charts */
+.histogram rect {
+    fill: #5cd34f;
+}
+
+.histogram .bar:hover {
+    fill: #979696;
+}
+
+/* style of bar charts */
+.bar-chart rect {
+    fill: #2AC3EA;
+}
+
+.bar-chart .hovered {
+    fill: #979696;
+}
+
+/* style of line charts */
+.line-chart {
+    stroke: rgb(79, 175, 211);
+    stroke-width: 2;
+    fill: none;
+}
+
+text {
+    fill: black;
+}
+
+/* style of area charts */
+.area-chart {
+    fill: rgb(79, 175, 211);
+}
+
+/* style of scatter plot */
+.scatter-plot circle {
+    fill: rgb(79, 175, 211);
+}
+
+.scatter-plot .hovered {
+    fill: #979696;
+}
+
+input[type=range][orient=vertical] {
+    appearance: slider-vertical;
+    height: 400px;
+    width: 100px;
+}
+
+
+.boardDataSelection {
+    margin: 20px;
+}
+
+#moveInfo {
+    margin-left: 10px;
+  }
+
+/* Style for the navbar */
+.navbar {
+    position: fixed; /* Stick to the top of the screen */
+    top: 0;
+    width: 100%;
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    /* Add a shadow for depth */
+}
+
+    /* Style for the navbar links */
+    .navbar ul {
+        list-style: none; /* Remove default list styles */
+        display: flex; /* Arrange links horizontally */
+        justify-content: space-around; /* Distribute links evenly */
+    }
+
+    .navbar a {
+        text-decoration: none; /* Remove underline from links */
+        color: #fff; /* Text color for links */
+    }
+
+        /* Change link color on hover */
+        .navbar a:hover {
+            color: #00f;
+        }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.dash-text {
+    margin: 100px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
